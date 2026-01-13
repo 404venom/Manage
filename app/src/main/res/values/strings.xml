@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Manage</string>
+    <string name="app_tagline">Gestion des Tâches</string>
+    <string name="version_info">Version 1.0.0</string>
+
+    <!-- Login -->
+    <string name="login_title">Connexion</string>
+    <string name="username_hint">Identifiant</string>
+    <string name="password_hint">Mot de passe</string>
+    <string name="login_button">Se connecter</string>
+    <string name="forgot_password">Mot de passe oublié ?</string>
+    <string name="supervisor">Superviseur</string>
+    <string name="employee">Employé</string>
+
+    <!-- Navigation -->
+    <string name="navigation_drawer_open">Ouvrir le menu</string>
+    <string name="navigation_drawer_close">Fermer le menu</string>
+
+    <!-- Menu Superviseur -->
+    <string name="menu_dashboard">Tableau de Bord</string>
+    <string name="menu_all_tasks">Toutes les Tâches</string>
+    <string name="menu_employees">Employés</string>
+    <string name="menu_create_task">Créer une Tâche</string>
+    <string name="menu_reports">Rapports</string>
+
+    <!-- Menu Employé -->
+    <string name="menu_my_tasks">Mes Tâches</string>
+    <string name="menu_in_progress">En Cours</string>
+    <string name="menu_completed">Terminées</string>
+    <string name="menu_calendar">Calendrier</string>
+
+    <!-- Menu Commun -->
+    <string name="menu_notifications">Notifications</string>
+    <string name="menu_profile">Profil</string>
+    <string name="menu_settings">Paramètres</string>
+    <string name="menu_logout">Déconnexion</string>
+
+    <!-- Tâches -->
+    <string name="task_title">Titre de la tâche</string>
+    <string name="task_description">Description</string>
+    <string name="task_priority">Priorité</string>
+    <string name="task_status">Statut</string>
+    <string name="task_assigned_to">Assigné à</string>
+    <string name="task_created_by">Créé par</string>
+    <string name="task_due_date">Date limite</string>
+    <string name="task_created_date">Date de création</string>
+
+    <!-- Priorités -->
+    <string name="priority_low">Basse</string>
+    <string name="priority_medium">Moyenne</string>
+    <string name="priority_high">Haute</string>
+    <string name="priority_urgent">Urgente</string>
+
+    <!-- Statuts -->
+    <string name="status_pending">En attente</string>
+    <string name="status_in_progress">En cours</string>
+    <string name="status_completed">Terminée</string>
+    <string name="status_cancelled">Annulée</string>
+
+    <!-- Actions -->
+    <string name="action_save">Enregistrer</string>
+    <string name="action_cancel">Annuler</string>
+    <string name="action_delete">Supprimer</string>
+    <string name="action_edit">Modifier</string>
+    <string name="action_create">Créer</string>
+    <string name="action_confirm">Confirmer</string>
+
+    <!-- Messages -->
+    <string name="success_task_created">Tâche créée avec succès</string>
+    <string name="success_task_updated">Tâche mise à jour</string>
+    <string name="success_task_deleted">Tâche supprimée</string>
+    <string name="error_task_create">Erreur lors de la création</string>
+    <string name="error_task_update">Erreur lors de la mise à jour</string>
+    <string name="error_loading">Erreur de chargement</string>
+
+    <!-- Profil -->
+    <string name="profile_edit">Modifier le profil</string>
+    <string name="profile_change_password">Changer le mot de passe</string>
+    <string name="profile_logout">Se déconnecter</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_phone">Téléphone</string>
+    <string name="profile_department">Département</string>
+    <string name="profile_join_date">Membre depuis</string>
+
+    <!-- Notifications -->
+    <string name="no_notifications">Aucune notification</string>
+    <string name="notification_task_assigned">Nouvelle tâche assignée</string>
+    <string name="notification_task_updated">Tâche mise à jour</string>
+    <string name="notification_task_completed">Tâche terminée</string>
+
+    <!-- Descriptions -->
+    <string name="app_logo">Logo de l\'application</string>
+    <string name="user_avatar">Avatar de l\'utilisateur</string>
+    <string name="profile_picture">Photo de profil</string>
+    <string name="task_icon">Icône de tâche</string>
+
+    <!-- Divers -->
+    <string name="empty_state">Aucune donnée disponible</string>
+    <string name="loading">Chargement en cours…</string>
+    <string name="required_field">Champ obligatoire</string>
+    <string name="required_fields">* Champs obligatoires</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

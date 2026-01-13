@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paramètres"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Notifications -->
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:orientation="vertical">
+
+                <Switch
+                    android:id="@+id/notificationsSwitch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Notifications" />
+
+                <Switch
+                    android:id="@+id/soundSwitch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Son" />
+
+                <Switch
+                    android:id="@+id/vibrationSwitch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vibration" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Appearance -->
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:orientation="vertical">
+
+                <Switch
+                    android:id="@+id/darkModeSwitch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mode sombre" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Account -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/accountCard"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="👤 Paramètres du compte"
+                android:textSize="16sp"
+                android:padding="16dp" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Data -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dataCard"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📂 Gestion des données"
+                android:textSize="16sp"
+                android:padding="16dp" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- About -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/aboutCard"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ℹ️ À propos"
+                android:textSize="16sp"
+                android:padding="16dp" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Logout -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/logoutCard"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🚪 Déconnexion"
+                android:textSize="16sp"
+                android:textColor="@android:color/holo_red_dark"
+                android:padding="16dp" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Version -->
+        <TextView
+            android:id="@+id/versionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Version 1.0.0"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:textColor="#777777" />
+
+    </LinearLayout>
+</ScrollView>
