@@ -13,6 +13,8 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
+import com.example.manage.activities.LoginActivity;
+
 public class SettingsFragment extends Fragment {
 
     private Switch notificationsSwitch;

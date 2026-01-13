@@ -1,4 +1,4 @@
-package com.example.manage;
+package com.example.manage.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,6 +15,15 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
+
+import com.example.manage.DashboardFragment;
+import com.example.manage.EmployeeListFragment;
+import com.example.manage.NotificationActivity;
+import com.example.manage.ProfileActivity;
+import com.example.manage.R;
+import com.example.manage.SharedPreferencesHelper;
+import com.example.manage.TaskListFragment;
+import com.example.manage.User;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {

@@ -12,6 +12,9 @@ import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.manage.activities.CreateTaskActivity;
+import com.example.manage.activities.TaskDetailActivity;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.util.List;
 
