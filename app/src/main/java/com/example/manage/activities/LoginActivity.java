@@ -16,6 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.manage.R;
 import com.example.manage.SharedPreferencesHelper;
 import com.example.manage.User;
+import com.example.manage.XMLDataManager;
 
 public class LoginActivity extends AppCompatActivity {
 

@@ -1,8 +1,11 @@
 package com.example.manage;
 
+
 import android.content.Context;
 import android.content.SharedPreferences;
+
 import com.google.gson.Gson;
+
 
 public class SharedPreferencesHelper {
 
@@ -87,5 +90,50 @@ public class SharedPreferencesHelper {
     public String getCurrentUserRole() {
         User user = getUserSession();
         return user != null ? user.getRole() : null;
+    }
+
+    /**
+     * Sauvegarder une valeur booléenne
+     */
+    public void saveBoolean(String key, boolean value) {
+        editor.putBoolean(key, value);
+        editor.apply();
+    }
+
+    /**
+     * Récupérer une valeur booléenne
+     */
+    public boolean getBoolean(String key, boolean defaultValue) {
+        return sharedPreferences.getBoolean(key, defaultValue);
+    }
+
+    /**
+     * Sauvegarder une chaîne de caractères
+     */
+    public void saveString(String key, String value) {
+        editor.putString(key, value);
+        editor.apply();
+    }
+
+    /**
+     * Récupérer une chaîne de caractères
+     */
+    public String getString(String key, String defaultValue) {
+        return sharedPreferences.getString(key, defaultValue);
+    }
+
+    /**
+     * Sauvegarder un entier
+     */
+    public void saveInt(String key, int value) {
+        editor.putInt(key, value);
+        editor.apply();
+    }
+
+    /**
+     * Récupérer un entier
+     */
+    public int getInt(String key, int defaultValue) {
+        return sharedPreferences.getInt(key, defaultValue);
     }
 }
