@@ -111,8 +111,8 @@
                             android:layout_width="24dp"
                             android:layout_height="24dp"
                             android:src="@drawable/ic_email"
-                            android:tint="@color/primary_color"
-                            android:layout_marginEnd="12dp" />
+                            android:layout_marginEnd="12dp"
+                            app:tint="@color/primary_color" />
 
                         <LinearLayout
                             android:layout_width="0dp"
@@ -150,8 +150,8 @@
                             android:layout_width="24dp"
                             android:layout_height="24dp"
                             android:src="@drawable/ic_phone"
-                            android:tint="@color/primary_color"
-                            android:layout_marginEnd="12dp" />
+                            android:layout_marginEnd="12dp"
+                            app:tint="@color/primary_color" />
 
                         <LinearLayout
                             android:layout_width="0dp"
@@ -189,8 +189,8 @@
                             android:layout_width="24dp"
                             android:layout_height="24dp"
                             android:src="@drawable/ic_department"
-                            android:tint="@color/primary_color"
-                            android:layout_marginEnd="12dp" />
+                            android:layout_marginEnd="12dp"
+                            app:tint="@color/primary_color" />
 
                         <LinearLayout
                             android:layout_width="0dp"
@@ -227,8 +227,8 @@
                             android:layout_width="24dp"
                             android:layout_height="24dp"
                             android:src="@drawable/ic_calendar"
-                            android:tint="@color/primary_color"
-                            android:layout_marginEnd="12dp" />
+                            android:layout_marginEnd="12dp"
+                            app:tint="@color/primary_color" />
 
                         <LinearLayout
                             android:layout_width="0dp"

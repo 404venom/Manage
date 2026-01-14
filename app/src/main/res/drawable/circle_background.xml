@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!-- Fond blanc avec bordure -->
+    <solid android:color="@android:color/white" />
+
+    <!-- Bordure fine -->
+    <stroke
+        android:width="2dp"
+        android:color="@color/white" />
+
+    <!-- Taille -->
+    <size
+        android:width="80dp"
+        android:height="80dp" />
+
+</shape>

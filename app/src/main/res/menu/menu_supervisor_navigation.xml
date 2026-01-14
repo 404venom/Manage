@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Section 1 : Tableau de bord et tâches -->
+    <group android:id="@+id/group_supervisor_main">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Tableau de Bord" />
+
+        <item
+            android:id="@+id/nav_all_tasks"
+            android:icon="@drawable/ic_task_list"
+            android:title="Toutes les Tâches" />
+
+        <item
+            android:id="@+id/nav_employees"
+            android:icon="@drawable/ic_employee"
+            android:title="Employés" />
+
+        <item
+            android:id="@+id/nav_create_task"
+            android:icon="@drawable/ic_add_task"
+            android:title="Créer une Tâche" />
+    </group>
+
+    <!-- Section 2 : Rapports -->
+    <group android:id="@+id/group_supervisor_reports">
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@drawable/ic_reports"
+            android:title="Rapports" />
+    </group>
+
+    <!-- Divider -->
+    <item android:title="GÉNÉRAL">
+        <menu>
+            <!-- Section 3 : Notifications et profil -->
+            <group android:id="@+id/group_general">
+                <item
+                    android:id="@+id/nav_notifications"
+                    android:icon="@drawable/ic_notifications"
+                    android:title="Notifications">
+                    <badge
+                        android:maxCharacterCount="3"
+                        app:backgroundColor="@color/notification_badge" />
+                </item>
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_profile"
+                    android:title="Mon Profil" />
+
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/ic_settings"
+                    android:title="Paramètres" />
+            </group>
+
+            <!-- Section 4 : Déconnexion -->
+            <group android:id="@+id/group_logout">
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="Déconnexion"
+                    android:iconTint="?attr/colorError" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

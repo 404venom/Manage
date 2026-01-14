@@ -44,4 +44,20 @@
     <!-- Couleurs transparentes -->
     <color name="transparent">#00000000</color>
     <color name="black_overlay">#66000000</color>
+    <color name="outline_color">#BDBDBD</color>
+    <!-- Ou utilisez une couleur de votre palette -->
+    <!-- Couleurs pour le bouton danger -->
+    <color name="danger">#F44336</color>
+    <color name="danger_dark">#D32F2F</color>
+
+    <!-- Si vous n'avez pas déjà ces couleurs -->
+    <color name="primary_color">#3F51B5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+
+    <color name="success">#4CAF50</color>
+    <color name="success_dark">#388E3C</color>
+    <color name="danger">#F44336</color>
+    <color name="danger_dark">#D32F2F</color>
 </resources>

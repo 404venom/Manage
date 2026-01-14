@@ -101,4 +101,11 @@
     <string name="required_fields">* Champs obligatoires</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="task_icon">Icône de tâche</string>
+    <string name="task_details">Détails de la tâche</string>
+    <string name="assigned_to">Assigné à</string>
+    <string name="created_by">Créé par</string>
+    <string name="due_date">Date limite</string>
+    <string name="created_date">Créé le</string>
 </resources>
